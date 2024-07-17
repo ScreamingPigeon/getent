@@ -8,6 +8,7 @@ Python interface to the POSIX getent family of commands (getpwent, getgrent, get
 Usage
 =====
 
+Installation: https://pypi.org/project/pygetent/
 Here a few examples.
 
 Load the interface::
