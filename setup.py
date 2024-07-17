@@ -1,14 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name         = 'getent',
-    version      = '0.2',
-    author       = 'Wijnand Modderman-Lenstra',
-    author_email = 'maze@pyth0n.org',
+    name         = 'pygetent',
+    version      = '0.22',
+    author       = 'ScreamingPigeon',
+    author_email = 'visitprakhar@gmail.com',
     description  = 'Python interface to the POSIX getent family of commands',
     long_description = open('README.rst').read(),
-    license      = 'MIT',
-    keywords     = 'getent group passwd shadow network alias host',
-    packages     = ['getent'],
+    packages     = ['pygetent'],
 )
 
