@@ -61,6 +61,6 @@ Build status
 
 Why was this forked?
 =======
-Originally forked from [https://github.com/tehmaze/getent][https://github.com/tehmaze/getent/]. This fork was created since 
+Originally forked from [https://github.com/tehmaze/getent](https://github.com/tehmaze/getent/). This fork was created since 
  A) the original repository is now archived
  B) The package published to pypi has a broken setup.py, which leads to installation failure. This was due to the `file()` function being called on this very Readme. While the original repository reflects an update that uses 'read()`, the PyPi source has not been updated. This repository exists to republish to PyPI
